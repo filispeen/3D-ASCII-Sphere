@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'cascadiamono';
+    src: url("fonts/CascadiaMonoPL-Regular.otf");
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cascadiamono;
+}
+.sphere {
+    position: fixed;
+    text-align: center; 
+    white-space: pre;
+}
